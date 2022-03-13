@@ -1,0 +1,17 @@
+<header class="profile">
+    {{ if .Site.Params.avatarLink }}
+        <a href="{{ .Site.Params.avatarLink }}">
+          <img alt="avatar" src="{{ "/images/logo/lpm-logo.png" | relURL }}" />
+        </a>
+    {{ else }}
+        <img alt="avatar" src="{{ "/images/logo/lpm-logo.png" | relURL }}" />
+    {{ end }}
+
+    {{ with .Site.Params.Bio }}
+      <h2>{{ . | markdownify }}</h2>
+    {{ end }}
+
+    {{ with .Site.Params.Bio }}
+      <h4>- currently under development</h4>
+    {{ end }}
+</header>
