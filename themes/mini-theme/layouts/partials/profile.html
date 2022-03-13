@@ -8,10 +8,8 @@
     {{ end }}
 
     {{ with .Site.Params.Bio }}
-      <h2>{{ . | markdownify }}</h2>
+      <h2 style="color:#6d4c41; font-weight:bold;">{{ . | markdownify }}</h2>
     {{ end }}
 
-    {{ with .Site.Params.Bio }}
-      <h4>- currently under development</h4>
-    {{ end }}
+    <h2>currently under development</h2>
 </header>
