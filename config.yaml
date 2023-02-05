@@ -45,7 +45,7 @@ params:
   # Site Author
   author: Onur Ozkan
   # Author biography
-  bio: for {you name it} distribution
+  bio: for {you-name-it} distribution
   # Site Description, used in HTML meat
   description: official page of lodpm
 
