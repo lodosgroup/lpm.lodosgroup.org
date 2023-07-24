@@ -1,0 +1,62 @@
+{% macro explore_packages() %}
+<script>
+  function fetchJSONData(packageName) {
+    const baseUrl = 'https://linux-amd64-default.lodpm.com/api';
+    const url = `${baseUrl}/?package=${encodeURIComponent(packageName || "")}`;
+
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        populateTable(data);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error.message);
+      });
+  }
+
+  function populateTable(data) {
+    const tableBody = document.querySelector('#data-table tbody');
+
+    // Clear existing table rows and header row
+    tableBody.innerHTML = '';
+    const headerRow = document.querySelector('#header-row');
+    headerRow.innerHTML = '';
+
+    // Loop through the data and create table rows for each object
+    data.forEach((item, index) => {
+      const row = document.createElement('tr');
+
+      // Loop through the properties of each object and create table cells for each property
+      for (const key in item) {
+        if (item.hasOwnProperty(key)) {
+          if (index === 0) {
+            // For the first object, create column headers
+            const headerCell = document.createElement('th');
+            headerCell.textContent = key;
+            headerRow.appendChild(headerCell);
+          }
+          const cell = document.createElement('td');
+          cell.textContent = item[key];
+          row.appendChild(cell);
+        }
+      }
+
+      tableBody.appendChild(row);
+    });
+  }
+
+  const queryInput = document.getElementById('query-input');
+  queryInput.addEventListener('input', function () {
+    const packageName = queryInput.value.trim();
+    fetchJSONData(packageName);
+  });
+
+  // Call the function to fetch and display the initial JSON data in the table
+  fetchJSONData();
+</script>
+{% endmacro %}

@@ -1,0 +1,75 @@
+{% extends "section.html" %}
+
+{% import 'macros/explore-packages.html' as explore_packages -%}
+
+{% block body %}
+{% set page_class = "blog list" %}
+{% endblock body %}
+
+{% block header %}
+{# This value is matched by the config.extra.menu.main->section #}
+{% set current_section = "blog" %}
+{{ macros_header::header(current_section=current_section)}}
+{% endblock header %}
+
+{% block content %}
+
+<head>
+  <title>JSON Data Table</title>
+  <style>
+    .table-wrapper {
+      overflow: auto;
+      /* Enable vertical scrolling for the table */
+    }
+
+    #data-table {
+      border-collapse: collapse;
+      border: 1px solid #ccc;
+      table-layout: auto;
+    }
+
+    #data-table th {
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      white-space: nowrap;
+      /* Prevent text wrapping in table cells */
+    }
+
+    #data-table td {
+      border: 1px solid #ccc;
+      min-width: 300px;
+      max-width: 300px;
+      white-space: normal;
+      /* Prevent text wrapping in table cells */
+      overflow: auto;
+    }
+
+    #query-input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<section class="section section-sm">
+  <div class="container">
+    <div class="table-wrapper">
+      <input type="text" id="query-input" placeholder="Search for package">
+      <table id="data-table">
+        <thead>
+          <tr id="header-row">
+            <!-- Column headers will be added dynamically here -->
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Table rows will be added dynamically here -->
+        </tbody>
+      </table>
+    </div>
+
+    {{ explore_packages::explore_packages() }}
+  </div>
+</section>
+{% endblock content %}
