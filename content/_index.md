@@ -60,7 +60,11 @@ content = "In the beta release, LPM plans to introduce workspace support, enabli
 
 [[extra.list]]
 title = "Snapshots (Upcoming)"
-content = "In the beta release, LPM will offer snapshot functionality, allowing users to recover OS packages from compact SQLite database snapshots, streamlining system restoration with single command."
+content = "In the beta release, LPM plans to introduce snapshot functionality, allowing users to recover OS packages from compact SQLite database snapshots, streamlining system restoration with single command."
+
+[[extra.list]]
+title = "Rootless Mode (Upcoming)"
+content = "In the beta release, LPM plans to introduce a rootless mode, allowing users to install packages without requiring root privileges."
 
 [[extra.list]]
 title = "Way Ahead of Other Package Managers"
