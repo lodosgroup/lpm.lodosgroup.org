@@ -43,10 +43,6 @@ title = "Module Support"
 content = "Harness the power of LPM by creating extensions in various programming languages. LPM's flexible architecture enables developers to integrate their custom modules seamlessly."
 
 [[extra.list]]
-title = "Fully Open Source"
-content = "LPM is a fully open-source project driven by community. Decisions are made collaboratively, promoting transparency and inclusivity."
-
-[[extra.list]]
 title = "Easy to Adapt"
 content = "LPM's simplicity allows package building using familiar tools like Bash and JSON. The straightforward approach of modules like <a href='https://github.com/lodosgroup/lpm-modules/tree/stable/lpm-builder'>lpm-builder</a> makes the adaptation process a breeze."
 
