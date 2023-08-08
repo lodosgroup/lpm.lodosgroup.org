@@ -1,5 +1,5 @@
 +++
-title = "How to Contribute"
+title = "Contribution Guidelines"
 description = "Contribute to LPM, it's ecosystem or improve the documentation."
 date = 2023-07-24T10:49:06
 draft = false
