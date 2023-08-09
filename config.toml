@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://lodpm.com"
+base_url = "https://lpm.lodosgroup.org"
 title = "LPM"
 description = "LPM is a lightweight, lightning-fast, and highly secure project written in Rust, boasting extensive feature support for efficient package management."
 
@@ -58,7 +58,7 @@ timezone = "UTC"
 
 # Edit page on reposity or not
 edit_page = true
-docs_repo = "https://github.com/lodosgroup/lodpm.com"
+docs_repo = "https://github.com/lodosgroup/lpm.lodosgroup.org"
 repo_branch = "main"
 
 ## Math settings

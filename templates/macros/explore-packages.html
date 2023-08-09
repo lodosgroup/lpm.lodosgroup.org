@@ -1,7 +1,7 @@
 {% macro explore_packages() %}
 <script>
   function fetchJSONData(packageName) {
-    const baseUrl = 'https://linux-amd64-default.lodpm.com/api';
+    const baseUrl = 'https://linux-amd64-default.lpm.lodosgroup.org/api';
     const url = `${baseUrl}/?package=${encodeURIComponent(packageName || "")}`;
 
     fetch(url)
