@@ -15,4 +15,4 @@ You can easily delete packages using the following command:
 sudo lpm --delete lzip
 ```
 
-LPM will then delete the package along with its associated dependencies if there are any.
+LPM will then delete the package from your system along with its associated dependencies if there are any.
