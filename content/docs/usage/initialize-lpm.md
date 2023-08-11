@@ -24,7 +24,7 @@ Follow these instructions carefully to ensure a smooth setup process.
 
     Adding a repository is essential for LPM to access and manage packages. The repository you add will serve as the source of packages for your system.
 
-    In this example, we will add the `amd64` repository.
+    In this example, we will add the linux repository for amd64 architecture.
 
     ```sh
     # args: <repository-name> <repository-url>
