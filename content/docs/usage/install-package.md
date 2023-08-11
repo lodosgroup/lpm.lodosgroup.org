@@ -43,3 +43,11 @@ sudo lpm --install "lzip@>=1.23.0"
 ```
 
 LPM will then install the specified version of the package that meets the version constraint you provided.
+
+**Installing a Local Package**:
+
+If you want to install a package from your filesystem, you can do so by executing the following command:
+
+```sh
+sudo lpm --install $path_to_lod_package --local
+```
