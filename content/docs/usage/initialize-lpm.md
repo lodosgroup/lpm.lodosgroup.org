@@ -3,7 +3,7 @@ title = "Initialize LPM"
 description = "Simple guide for initializing and setting up LPM for the first time."
 date = 2023-07-24T10:49:06
 draft = false
-weight = 0
+weight = 1
 sort_by = "weight"
 template = "docs/page.html"
 +++

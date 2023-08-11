@@ -3,7 +3,7 @@ title = "Install Package"
 description = "Simple guide for installing packages with Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
-weight = 1
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 +++
