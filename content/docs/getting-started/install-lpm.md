@@ -1,5 +1,5 @@
 +++
-title = "LPM Installation"
+title = "Install LPM"
 description = "Install LPM"
 date = 2023-07-24T10:49:06
 draft = false

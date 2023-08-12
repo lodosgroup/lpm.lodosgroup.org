@@ -1,5 +1,5 @@
 +++
-title = "Delete Package"
+title = "delete"
 description = "Simple guide for deleting packages with Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
@@ -8,9 +8,11 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
+LPM offers you to effortlessly remove packages from your system.
+
 - **Delete package**:
 
-    You can easily delete packages using the following command:
+    To remove packages seamlessly, use the provided command:
 
     ```sh
     # args: <package-name>

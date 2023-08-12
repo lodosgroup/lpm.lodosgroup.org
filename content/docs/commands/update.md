@@ -1,5 +1,5 @@
 +++
-title = "Update Operations"
+title = "update"
 description = "Simple guide on update operations of Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
@@ -7,6 +7,8 @@ weight = 4
 sort_by = "weight"
 template = "docs/page.html"
 +++
+
+LPM offers several update operations to ensure both your system and LPM itself remain up-to-date. This documentation elaborates on these update operations.
 
 - **Update everything**:
 

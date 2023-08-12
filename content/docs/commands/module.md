@@ -1,5 +1,5 @@
 +++
-title = "Dynamic Module Management"
+title = "module"
 description = "Simple guide for managing dynamic modules with Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
@@ -7,6 +7,8 @@ weight = 6
 sort_by = "weight"
 template = "docs/page.html"
 +++
+
+The module feature of LPM enables you to use advanced features implemented in other languages for the LPM environment. This empowers you to seamlessly integrate and utilize capabilities from various languages within the LPM ecosystem.
 
 - **Add dynamic module**:
     You can easily add a dynamic module using the following command:
@@ -32,3 +34,14 @@ template = "docs/page.html"
     ```sh
     lpm --repository --list
     ```
+
+- **Run a module**:
+
+    To start a module, use the following approach below:
+
+    ```sh
+    # args: <module-name>
+    lpm --module rpm-module
+    ```
+
+Refer to the [Build a simple package](/docs/package-building/build-a-simple-package/) documentation for a practical example of utilizing a dynamic module. This module is actively being used for building packages to LPM repositories.

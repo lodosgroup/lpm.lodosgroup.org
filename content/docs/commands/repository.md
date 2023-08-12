@@ -1,5 +1,5 @@
 +++
-title = "Repository Management"
+title = "repository"
 description = "Simple guide for managing repositories with Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
@@ -7,6 +7,8 @@ weight = 5
 sort_by = "weight"
 template = "docs/page.html"
 +++
+
+The repository command in LOD Package Manager (LPM) enables you to manage repositories efficiently. This documentation outlines essential actions associated with repositories.
 
 - **Add repository**:
     You can easily add repository using the following command:
@@ -34,6 +36,3 @@ template = "docs/page.html"
     ```sh
     lpm --repository --list
     ```
-
-
-# TODO: ref to example of using dynamic modules
