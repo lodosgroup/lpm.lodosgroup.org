@@ -39,6 +39,7 @@ Use `<=` for versions less than or equal to the specified version.
 For example, if you wish to install version 1.23.0 or any version greater than or equal to it of the lzip package, you can use the following command:
 
 ```sh
+# args: <package-name@version-constraint>
 sudo lpm --install "lzip@>=1.23.0"
 ```
 
@@ -49,5 +50,6 @@ LPM will then install the specified version of the package that meets the versio
 If you want to install a package from your filesystem, you can do so by executing the following command:
 
 ```sh
+# args: <package-name>, <package-path>
 sudo lpm --install $path_to_lod_package --local
 ```
