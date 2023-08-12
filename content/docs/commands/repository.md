@@ -6,9 +6,10 @@ draft = false
 weight = 5
 sort_by = "weight"
 template = "docs/page.html"
-+++
 
-The repository command in LOD Package Manager (LPM) enables you to manage repositories efficiently. This documentation outlines essential actions associated with repositories.
+[extra]
+lead = "The repository command in LPM enables you to manage repositories efficiently. This documentation outlines essential actions associated with repositories."
++++
 
 - **Add repository**:
     You can easily add repository using the following command:

@@ -6,9 +6,10 @@ draft = false
 weight = 2
 sort_by = "weight"
 template = "docs/page.html"
-+++
 
-LPM provides a seamless and advanced approach to installing packages on your system.
+[extra]
+lead = "LPM provides a seamless and advanced approach to installing packages on your system."
++++
 
 - **Install package**:
 

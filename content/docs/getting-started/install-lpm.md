@@ -6,9 +6,10 @@ draft = false
 weight = 1
 sort_by = "weight"
 template = "docs/page.html"
-+++
 
-If you don't have Cargo (Rust's package manager) installed, you need to first install it. You can find installation instructions in the [Cargo Getting Started Guide](https://doc.rust-lang.org/cargo/getting-started/installation.html).
+[extra]
+lead = "If you don't have Cargo (Rust's package manager) installed, you need to first install it. You can find installation instructions in the <a target='_blank' href='https://doc.rust-lang.org/cargo/getting-started/installation.html'> Cargo Getting Started Guide</a>."
++++
 
 ## Install with Cargo
 

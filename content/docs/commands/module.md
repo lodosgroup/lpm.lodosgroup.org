@@ -6,9 +6,10 @@ draft = false
 weight = 6
 sort_by = "weight"
 template = "docs/page.html"
-+++
 
-The module feature of LPM enables you to use advanced features implemented in other languages for the LPM environment. This empowers you to seamlessly integrate and utilize capabilities from various languages within the LPM ecosystem.
+[extra]
+lead = "The module command of LPM enables you to use advanced features implemented in other languages for the LPM environment. This empowers you to seamlessly integrate and utilize capabilities from various languages within the LPM ecosystem."
++++
 
 - **Add dynamic module**:
     You can easily add a dynamic module using the following command:

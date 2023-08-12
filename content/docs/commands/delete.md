@@ -6,9 +6,10 @@ draft = false
 weight = 3
 sort_by = "weight"
 template = "docs/page.html"
-+++
 
-LPM offers you to effortlessly remove packages from your system.
+[extra]
+lead = "LPM offers you to effortlessly remove packages from your system."
++++
 
 - **Delete package**:
 

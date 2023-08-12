@@ -6,9 +6,10 @@ draft = false
 weight = 2
 sort_by = "weight"
 template = "docs/page.html"
-+++
 
-In this example, we will demonstrate how to build a package for the [sbs(simple background setter)](https://github.com/ozkanonur/sbs) tool.
+[extra]
+lead = "In this example, we will demonstrate how to build a package for the <a target='_blank' href='https://github.com/ozkanonur/sbs'>sbs(simple background setter)</a> tool."
++++
 
 Begin by preparing the necessary files for building [sbs](https://github.com/ozkanonur/sbs).
 
