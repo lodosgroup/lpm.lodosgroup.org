@@ -1,5 +1,5 @@
 +++
-title = "Update Package"
+title = "Update Operations"
 description = "Simple guide on update operations of Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
