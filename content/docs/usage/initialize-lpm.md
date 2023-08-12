@@ -31,11 +31,4 @@ Follow these instructions carefully to ensure a smooth setup process.
     sudo lpm --repository --add linux-amd64-default linux-amd64-default.lpm.lodosgroup.org
     ```
 
-3. **Update Repository Indexes**:
-
-    Once you've added the repository, it's important to update the repository indexes to synchronize LPM with the latest package information from the newly
-    added repository.
-
-    ```sh
-    sudo lpm --update --index
-    ```
+    Once you've added the repository, LPM will synchronize with the package indexes sourced from the added repository. This indicates that you are all set to install packages.

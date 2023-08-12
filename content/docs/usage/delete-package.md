@@ -8,11 +8,13 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
-You can easily delete packages using the following command:
+- **Delete package**:
 
-```sh
-# args: <package-name>
-sudo lpm --delete lzip
-```
+    You can easily delete packages using the following command:
 
-LPM will then delete the package from your system along with its associated dependencies if there are any.
+    ```sh
+    # args: <package-name>
+    sudo lpm --delete lzip
+    ```
+
+    LPM will then delete the package from your system along with its associated dependencies if there are any.
