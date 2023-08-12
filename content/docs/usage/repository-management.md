@@ -1,5 +1,5 @@
 +++
-title = "Manage Repositories"
+title = "Repository Management"
 description = "Simple guide for managing repositories with Lod Package Manager."
 date = 2023-07-24T10:49:06
 draft = false
@@ -32,5 +32,8 @@ template = "docs/page.html"
     If you want to see list of all repositories added to LPM, follow the approach below:
 
     ```sh
-    sudo lpm --repository --list
+    lpm --repository --list
     ```
+
+
+# TODO: ref to example of using dynamic modules
