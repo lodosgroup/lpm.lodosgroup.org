@@ -66,15 +66,7 @@ Copy the following content into `template`
         "minor": 0,
         "patch": 0
     },
-    "license": "MIT",
-    "mandatory_dependencies": {
-        "build": [],
-        "runtime": []
-    },
-    "suggested_dependencies": {
-        "build": [],
-        "runtime": []
-    }
+    "license": "MIT"
 }
 ```
 
@@ -83,3 +75,5 @@ Now, you can run the following command to generate the `sbs.lod` package along w
 ```sh
 lpm --module builder --build .
 ```
+
+Refer to the [package-builds](https://github.com/lodosgroup/package-builds/tree/linux-amd64-default/builds) to examine more package templates created for the `linux-amd64-default` repository.
