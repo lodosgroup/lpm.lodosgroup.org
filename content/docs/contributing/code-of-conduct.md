@@ -6,6 +6,7 @@ draft = false
 weight = 420
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "Contributor Covenant Code of Conduct."

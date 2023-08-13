@@ -6,6 +6,7 @@ draft = false
 weight = 0
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "Let's take a detailed look into the inner workings of the lpm-builder module."

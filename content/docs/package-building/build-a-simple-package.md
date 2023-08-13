@@ -6,6 +6,7 @@ draft = false
 weight = 2
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "In this example, we will demonstrate how to build a package for the <a target='_blank' href='https://github.com/ozkanonur/sbs'>sbs(simple background setter)</a> tool."

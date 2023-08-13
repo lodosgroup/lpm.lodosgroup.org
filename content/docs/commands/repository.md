@@ -6,6 +6,7 @@ draft = false
 weight = 5
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "The repository command in LPM enables you to manage repositories efficiently. This documentation outlines essential actions associated with repositories."

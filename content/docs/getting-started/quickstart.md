@@ -6,6 +6,7 @@ draft = false
 weight = 2
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "LPM is a robust tool for securely managing software packages on your system. This quickstart guide will guide you through the fundamental steps to become familiar with LPM."

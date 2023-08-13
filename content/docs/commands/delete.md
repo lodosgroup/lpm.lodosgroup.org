@@ -6,6 +6,7 @@ draft = false
 weight = 3
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "LPM offers you to effortlessly remove packages from your system."

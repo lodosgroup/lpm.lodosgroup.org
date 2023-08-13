@@ -6,6 +6,7 @@ draft = false
 weight = 4
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "LPM offers several update operations to ensure both your system and LPM itself remain up-to-date. This documentation elaborates on these update operations."

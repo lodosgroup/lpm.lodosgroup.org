@@ -6,6 +6,7 @@ draft = false
 weight = 0
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = 'LPM is a lightweight, lightning-fast, and highly secure project written in Rust, boasting extensive feature support for efficient package management.'

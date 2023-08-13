@@ -6,6 +6,7 @@ draft = false
 weight = 6
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "The module command of LPM enables you to use advanced features implemented in other languages for the LPM environment. This empowers you to seamlessly integrate and utilize capabilities from various languages within the LPM ecosystem."

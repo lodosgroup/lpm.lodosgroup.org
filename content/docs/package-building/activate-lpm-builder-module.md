@@ -6,6 +6,7 @@ draft = false
 weight = 1
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 +++
 
 To build the lpm-builder module from source, follow these steps:

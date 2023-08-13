@@ -6,6 +6,7 @@ draft = false
 weight = 410
 sort_by = "weight"
 template = "docs/page.html"
+in_search_index = true
 
 [extra]
 lead = "Contribute to LPM, it's ecosystem or improve the documentation."
