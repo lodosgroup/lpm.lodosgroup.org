@@ -102,3 +102,38 @@
     }
   }
 }
+
+// Dark appearances
+body.dark {
+  .search-wrapper__input {
+    input {
+      background-color: #1b1f22;
+      border: 1px solid #3a3a3a;
+      color: #ececec;
+    }
+  }
+
+  .packages {
+    &__item {
+      &-header {
+        border-bottom: 1px solid #3a3a3a;
+
+        strong {
+          background-color: #3e434e;
+          color: #fff;
+        }
+      }
+
+      &-prop {
+        &:nth-child(2n) {
+          background-color: #1b1f22;
+        }
+
+        span {
+          background-color: #2a2e30;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
