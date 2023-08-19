@@ -1,0 +1,139 @@
+.search-wrapper {
+  $wrapper: &;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &:focus-within {
+    #{$wrapper}__icon {
+      left: 4px;
+      opacity: 0;
+    }
+
+    #{$wrapper}__input {
+      input {
+        padding-left: 16px;
+      }
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    margin-top: -4px;
+    left: 16px;
+    transition: all, 0.15s;
+  }
+
+  &__input {
+    width: 100%;
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px 8px 8px 44px;
+      transition: all, 0.15s;
+      border: 1px solid #c1c7d0;
+      border-radius: 2px;
+    }
+  }
+}
+
+.packages {
+  margin-top: 16px;
+
+  &__item {
+    margin: 8px 0px;
+
+    &-header {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      border-bottom: 1px solid #ececec;
+      padding: 12px 0px;
+      margin-bottom: 8px;
+
+      strong {
+        background-color: #ebecf0;
+        color: #42526e;
+        padding: 4px 16px;
+        display: inline-flex;
+        border-radius: 4px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &-prop {
+      display: flex;
+      padding: 6px 8px;
+      font-size: 1rem;
+
+      &:nth-child(2n) {
+        background-color: #fafbfc;
+      }
+
+      & > strong {
+        min-width: 140px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        word-break: break-all;
+      }
+
+      span {
+        background-color: #ebecf0;
+        color: #42526e;
+        padding: 2px 8px;
+        border-radius: 2px;
+      }
+    }
+
+    &-tags {
+      span {
+        display: inline-block;
+        margin: 2px;
+      }
+    }
+  }
+}
+
+// Dark appearances
+body.dark {
+  .search-wrapper__input {
+    input {
+      background-color: #1b1f22;
+      border: 1px solid #3a3a3a;
+      color: #ececec;
+    }
+  }
+
+  .packages {
+    &__item {
+      &-header {
+        border-bottom: 1px solid #3a3a3a;
+
+        strong {
+          background-color: #3e434e;
+          color: #fff;
+        }
+      }
+
+      &-prop {
+        &:nth-child(2n) {
+          background-color: #1b1f22;
+        }
+
+        span {
+          background-color: #2a2e30;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
