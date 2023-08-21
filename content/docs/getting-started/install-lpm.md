@@ -17,7 +17,7 @@ lead = "If you don't have Cargo (Rust's package manager) installed, you need to 
 To install LPM from a specific branch, run the following command:
 
 ```sh
-cargo install --git https://github.com/lodosgroup/lpm --branch stable
+cargo install --git https://github.com/lodosgroup/lpm --branch main
 ```
 
 Alternatively, you can install it from tags:

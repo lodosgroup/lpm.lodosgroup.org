@@ -44,7 +44,7 @@ content = "Harness the power of LPM by creating extensions in various programmin
 
 [[extra.list]]
 title = "Easy to Adapt"
-content = "LPM's simplicity allows package building using familiar tools like Bash and JSON. The straightforward approach of modules like <a href='https://github.com/lodosgroup/lpm-modules/tree/stable/lpm-builder'>lpm-builder</a> makes the adaptation process a breeze."
+content = "LPM's simplicity allows package building using familiar tools like Bash and JSON. The straightforward approach of modules like <a href='https://github.com/lodosgroup/lpm-modules/tree/main/lpm-builder'>lpm-builder</a> makes the adaptation process a breeze."
 
 [[extra.list]]
 title = "Compatibility"
