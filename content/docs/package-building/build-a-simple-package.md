@@ -9,10 +9,10 @@ template = "docs/page.html"
 in_search_index = true
 
 [extra]
-lead = "In this example, we will demonstrate how to build a package for the <a target='_blank' href='https://github.com/ozkanonur/sbs'>sbs(simple background setter)</a> tool."
+lead = "In this example, we will demonstrate how to build a package for the <a target='_blank' href='https://github.com/onur-ozkan/sbs'>sbs(simple background setter)</a> tool."
 +++
 
-Begin by preparing the necessary files for building [sbs](https://github.com/ozkanonur/sbs).
+Begin by preparing the necessary files for building [sbs](https://github.com/onur-ozkan/sbs).
 
 ```sh
 mkdir sbs_build_template
@@ -29,7 +29,7 @@ touch template
 Copy the following content into `stage0/init`
 
 ```sh
-curl -L https://github.com/ozkanonur/sbs/archive/refs/tags/v1.0.0.tar.gz > sbs.tar.gz
+curl -L https://github.com/onur-ozkan/sbs/archive/refs/tags/v1.0.0.tar.gz > sbs.tar.gz
 validate_checksum "sbs.tar.gz" "aa4da5b2315046fc2059599b19c530f08bb870e63ed17111a55991b1ae911367"
 tar -xvzf sbs.tar.gz --strip 1 -C $SRC
 ```
@@ -53,8 +53,8 @@ Copy the following content into `template`
     "name": "sbs",
     "description": "Simple background setter",
     "maintainer": "Lpm Core Maintainer <contact@onurozkan.dev>",
-    "source_repository": "https://github.com/ozkanonur/sbs",
-    "homepage": "https://github.com/ozkanonur/sbs",
+    "source_repository": "https://github.com/onur-ozkan/sbs",
+    "homepage": "https://github.com/onur-ozkan/sbs",
     "arch": "amd64",
     "kind": "util",
     "file_checksum_algo": "sha256",
