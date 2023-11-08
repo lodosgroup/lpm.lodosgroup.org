@@ -31,6 +31,7 @@ We welcome contributions to the LPM project's codebase. Whether it's fixing bugs
 
 Feel free to explore these repositories and contribute to any ongoing issues or enhancements.
 
+<!---
 ## LPM Project Teams
 
 Our project thrives on the collaborative efforts of dedicated teams. To learn more about the various teams working on the LPM project and their responsibilities, please visit our [Teams Page](https://lodosgroup.org/teams/).
@@ -38,3 +39,4 @@ Our project thrives on the collaborative efforts of dedicated teams. To learn mo
 ## Sponsorship and Donations
 
 If you're interested in supporting the LPM project financially, we greatly appreciate your contributions. Your support helps us maintain and enhance the LPM ecosystem. For more information on sponsorship and donations, please visit our <a target="_blank" href="https://lodosgroup.org/contribution/"> lodosgroup.org/contribution </a>.
+-->

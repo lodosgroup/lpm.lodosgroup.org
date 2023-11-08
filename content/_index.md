@@ -61,8 +61,4 @@ content = "In the beta release, LPM plans to introduce snapshot functionality, a
 [[extra.list]]
 title = "Rootless Mode (Upcoming)"
 content = "In the beta release, LPM plans to introduce a rootless mode, allowing users to install packages without requiring root privileges."
-
-[[extra.list]]
-title = "Way Ahead of Other Package Managers"
-content = "LPM sets itself apart by excelling in various aspects, prioritizing developer and Linux user needs without compromising on performance or unnecessarily increasing binary size."
 +++
