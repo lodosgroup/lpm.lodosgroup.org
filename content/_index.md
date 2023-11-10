@@ -49,7 +49,7 @@ content = "LPM's simplicity allows package building using familiar tools like Ba
 
 [[extra.list]]
 title = "Compatibility"
-content = "LPM strives for universal compatibility across all Linux distributions, providing a consistent and seamless experience for users regardless of their chosen Linux distribution."
+content = "LPM strives for universal compatibility across all UNIX like systems, providing a consistent and seamless experience for users regardless of their system."
 
 [[extra.list]]
 title = "Workspaces (Upcoming)"
