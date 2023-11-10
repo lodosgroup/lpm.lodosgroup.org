@@ -2,9 +2,10 @@
 
 # The homepage contents
 [extra]
-lead = 'for <b>{you-name-it}</b> distribution'
+lead = '<i>an experimental system package manager</i>'
 repo_version = "GitHub v0.1.0"
-repo_license = "Open-source GNU General Public License v2.0"
+repo_license = ""
+# repo_license = "Open-source GNU General Public License v2.0"
 
 # Menu items
 [[extra.menu.main]]

@@ -23,7 +23,7 @@ cargo install --git https://github.com/lodosgroup/lpm --branch main
 Alternatively, you can install it from tags:
 
 ```sh
-cargo install --git https://github.com/lodosgroup/lpm --branch <tag>
+cargo install --git https://github.com/lodosgroup/lpm --tag <tag>
 ```
 
 To confirm a successful LPM installation, simply execute the `lpm -v` or `lpm --version` command.
