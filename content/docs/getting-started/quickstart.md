@@ -12,7 +12,7 @@ in_search_index = true
 lead = "LPM is a robust tool for securely managing software packages on your system. This quickstart guide will guide you through the fundamental steps to become familiar with LPM."
 +++
 
-1. **Migrate LPM database**:
+1. **Migrate LPM database** (ignore this step if using docker):
 
     The first step is to migrate the LPM database. This process initializes the core database files required for LPM to function effectively.
 
@@ -20,7 +20,7 @@ lead = "LPM is a robust tool for securely managing software packages on your sys
     sudo lpm --update --db
     ```
 
-2. **Add repository**:
+2. **Add repository** (ignore this step if using docker):
 
     Adding a repository is essential for LPM to access and manage packages. A repository acts as the source of packages for your system. Let's add the `linux-amd64-default` repository as an example.
 
